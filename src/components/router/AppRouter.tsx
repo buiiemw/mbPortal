@@ -19,6 +19,7 @@ import MedicalDashboardPage from '@app/pages/DashboardPages/MedicalDashboardPage
 
 const NewsFeedPage = React.lazy(() => import('@app/pages/NewsFeedPage'));
 const KanbanPage = React.lazy(() => import('@app/pages/KanbanPage'));
+const CampaignPage = React.lazy(() => import('@app/pages/CampaignPage'));
 const DataTablesPage = React.lazy(() => import('@app/pages/DataTablesPage'));
 const ChartsPage = React.lazy(() => import('@app/pages/ChartsPage'));
 const ServerErrorPage = React.lazy(() => import('@app/pages/ServerErrorPage'));
@@ -68,6 +69,7 @@ const MedicalDashboard = withLoading(MedicalDashboardPage);
 const NftDashboard = withLoading(NftDashboardPage);
 const NewsFeed = withLoading(NewsFeedPage);
 const Kanban = withLoading(KanbanPage);
+const Campaign = withLoading(CampaignPage);
 const AdvancedForm = withLoading(AdvancedFormsPage);
 
 // UI Components
@@ -136,6 +138,7 @@ export const AppRouter: React.FC = () => {
           <Route path="apps">
             <Route path="feed" element={<NewsFeed />} />
             <Route path="kanban" element={<Kanban />} />
+            <Route path="campaign" element={<Campaign />} />
           </Route>
           <Route path="forms">
             <Route path="advanced-forms" element={<AdvancedForm />} />

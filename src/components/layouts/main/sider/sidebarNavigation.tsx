@@ -40,6 +40,11 @@ export const sidebarNavigation: SidebarNavigationItem[] = [
     icon: <HomeOutlined />,
     children: [
       {
+        title: 'Campaign',
+        key: 'campaign',
+        url: '/apps/campaign',
+      },
+      {
         title: 'common.feed',
         key: 'feed',
         url: '/apps/feed',

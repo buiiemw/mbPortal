@@ -112,6 +112,13 @@ export const components: Component[] = [
     keywords: ['news', 'data tables'],
   },
   {
+    name: 'Campaign',
+    title: 'common.campaign',
+    url: `/apps/campaign`,
+    categories: ['apps'],
+    keywords: ['campaign', 'apps'],
+  },
+  {
     name: 'Feed',
     title: 'common.feed',
     url: `/apps/feed`,
