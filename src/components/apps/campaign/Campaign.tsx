@@ -8,7 +8,7 @@ export const Campaign: React.FC = () => {
   return (
     <>
       <S.TablesWrapper>
-        <S.Card id="basic-table" title={t('tables.basicTable')} padding="1.25rem 1.25rem 0">
+        <S.Card id="camapgin-table" title={t('Campaign Configs')} padding="1.25rem 1.25rem 0">
           <CampaignConfigList />
         </S.Card>
       </S.TablesWrapper>

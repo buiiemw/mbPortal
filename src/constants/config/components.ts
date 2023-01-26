@@ -210,6 +210,13 @@ export const components: Component[] = [
     keywords: ['basic table', 'data tables'],
   },
   {
+    name: 'Campaign configs',
+    title: 'tables.campaignTable',
+    url: `/data-tables/#camapgin-table`,
+    categories: ['data tables'],
+    keywords: ['campaign table', 'data tables'],
+  },
+  {
     name: 'Tree table',
     title: 'tables.treeTable',
     url: `/data-tables/#tree-table`,
